@@ -2,16 +2,12 @@
 // do tipo number e retorna um boolean indicando se o número é menor que 20;
 
 function isLowerThan20(val) {
-    // foi ultizado a condicional if, onde ela indica
-    // que se o valor foi menor que 20 retornará true;
-    if (val < 20) {
-        return true;
 
-        // Foi utilizada a condicional else, onde ela indica que
-        // se o valor por menor ou igual a 20, retornará false;
-    } else {
-        return false;
-    }
+
+    // Está retornando o parâmetro val, onde indica que se o valor
+    // for menor que 20, irá retornar true, e se for maior ou igual a 20 retornará false;
+
+    return val < 20;
 
 }
 

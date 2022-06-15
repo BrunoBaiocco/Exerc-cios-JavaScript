@@ -3,7 +3,7 @@
 
 function invertBoolean(val) {
 
-    // Está retornando uma verificação falsa, onde os valores serão invertidos;
+    // Está retornando uma verificação falsa, onde todos os valores serão invertidos;
     return val == false;
 }
 

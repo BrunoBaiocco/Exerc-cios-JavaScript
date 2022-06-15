@@ -4,16 +4,12 @@
 
 
 function isGreaterThan10(val) {
-    // foi ultizado a condicional if, onde ela indica
-    // que se o valor foi maior que 10 retornará true;
-    if (val > 10) {
-        return true;
 
-        // Foi utilizada a condicional else, onde ela indica que
-        // se o valor por menor ou igual a 10, retornará false;
-    } else {
-        return false;
-    }
+    // Está retornando o parâmetro val, onde indica que se o valor
+    // for maior que 10, irá retornar true, e se for menor ou igual a 10, retornará false;
+
+    return val > 10;
+
 
 }
 

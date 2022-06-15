@@ -4,17 +4,12 @@
 
 
 function booleanResponse(val) {
-    // Foi utilizada a condicional if, onde ela indica que
-    // se o parâmetro for true, ela retornará 'sim';
-    if (val == true) {
-        return 'sim';
 
-        // Foi utilizada a condicional else, onde ela indica que
-        // se o parâmetro for false, ela retornará 'não';
-    } else {
-        return 'não';
-    }
+    // Está retornando uma string, com o operador ternário, que
+    // está indicando que se a função for true, irá retornar o primeiro
+    // valor que é 'sim', se a função for false, irá retornar o segundo valor que é 'não'
 
+    return val == true ? 'sim' : 'não';
 }
 
 // console.log(booleanResponse(true));

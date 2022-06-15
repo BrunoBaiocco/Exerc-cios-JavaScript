@@ -4,7 +4,7 @@
 
 function isNull(val) {
 
-	//Retorna a verificação onde ve se o parametro val é igual a nulo; 
+	// Retorna a verificação onde ve se o parametro val é igual a nulo; 
 	return val == null;
 }
 

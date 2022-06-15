@@ -4,7 +4,9 @@
 
 
 function isNumber(val) {
-    // Está retornando o parâmetro com o operador typeof indicando que ele será do tipo number;
+    // A função está retornando com o operador type of, onde o mesmo
+    // verfica qual é o tipo do objeto que está situado, assim
+    // se o parâmetro for do tipo number, retornará true ;
     return typeof val === 'number';
 
 }

@@ -3,14 +3,11 @@
 
 
 function isBetween10and20(val) {
-    // foi ultizado a condicional if, onde ela indica
-    // se o valor é maior que 10 e menor que 20, retornando
-    // true ou false dependendo do valor;
-    if ((val > 10) && (val < 20)) {
-        return true;
-    } else {
-        return false;
-    }
+
+    // Retorna o parâmetro, com o operador &&, onde indica
+    // que se o valor for maior que 10 ou menor que 20 o resultado será true;
+    return (val > 10) && (val < 20)
+
 }
 
 // console.log(isBetween10and20(15));

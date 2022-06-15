@@ -4,8 +4,9 @@
 
 function isBoolean(val) {
 
-    // Retorna a verificação onde ve se o parâmetro val
-    //  é do tipo boolean, verificando se o valor e o tipo são iguais;
+    // Retorna a verificação onde verifica se o parâmetro val
+    //  é do tipo boolean, ultizando o operador === que verifica
+    //  se o valor e o tipo são iguais,  então só vai ser true se for exatamente igual;
     return val === true || val === false;
 }
 

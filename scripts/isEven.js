@@ -2,17 +2,13 @@
 //  do tipo number e retorna um boolean indicando se o parâmetro é par;
 
 function isEven(val) {
-    // Foi utilizada a condicional if, onde ela indica que
-    // se o parâmetro for par, ela retornará true;
-    if (val % 2 == 0) {
-        return true;
+        // Está retornando a verficação e indicando que qualquer número dividido
+        // por 2 e o resultado for igual a 0 ou seja um número par, o resultado será true
+        // assim se você colocar um número par, a função irá retornar true;
 
-        // Foi utilizada a condicional else, onde ela indica que
-        // se o parâmetro for impar, ela retornará false;
-    } else {
-        return false;
-    }
+        return val % 2 == 0
+
 }
 
-// console.log(isEven(5));
-// console.log(isEven(2));
+console.log(isEven(5));
+console.log(isEven(2));
