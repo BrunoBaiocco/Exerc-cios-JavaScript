@@ -3,7 +3,9 @@
 
 function invertSign(val) {
 
-    // Explicar o que está acontencendo
+    // A função está retornando um -val que sera avaliado com -0, ou seja
+    // será um valor falso, ou seja todos valores retornaram invertidos portanto o || operador
+    // irá avaliar para o segundo operando, que é 0, e assim o -0 será substituído por 0.
     return -val || 0;
 }
 
