@@ -4,7 +4,7 @@
 function invertBoolean(val) {
 
     // Está retornando uma verificação falsa, onde todos os valores serão invertidos;
-    return val == false;
+    return val == !true;
 }
 
 // console.log(invertBoolean(true));

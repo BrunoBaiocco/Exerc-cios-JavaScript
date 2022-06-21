@@ -3,7 +3,7 @@
 
 
 function mulNumbers(val1, val2){
-    return val1 * val2
+    return val1 * val2;
     // A função está retornando um number, com a multiplicação do parâmetro 1 com o parâmetro 2;
 }
 

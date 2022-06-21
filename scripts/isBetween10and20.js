@@ -6,7 +6,7 @@ function isBetween10and20(val) {
 
     // Retorna o parâmetro, com o operador &&, onde indica
     // que se o valor for maior que 10 ou menor que 20 o resultado será true;
-    return (val > 10) && (val < 20)
+    return (val > 10) && (val < 20);
 
 }
 

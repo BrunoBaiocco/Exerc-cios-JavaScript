@@ -3,7 +3,7 @@
 
 
 function powNumbers(base, exp){
-    return base ** exp
+    return base ** exp;
     // A função está retornando um number, com a exponenciação do parâmetro 1 com o parâmetro 2;
 }
 

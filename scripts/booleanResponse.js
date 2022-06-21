@@ -7,7 +7,7 @@ function booleanResponse(val) {
 
     // Está retornando uma string, com o operador ternário, que
     // está indicando que se a função for true, irá retornar o primeiro
-    // valor que é 'sim', se a função for false, irá retornar o segundo valor que é 'não'
+    // valor que é 'sim', se a função for false, irá retornar o segundo valor que é 'não';
 
     return val == true ? 'sim' : 'não';
 }

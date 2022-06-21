@@ -4,7 +4,7 @@
 
 function halfNumber(val){
 // O parâmetro está retornando um number com o valor reduzido a sua metade;
-    return val /2
+    return val /2;
 }
 
 // console.log(halfNumber(10));

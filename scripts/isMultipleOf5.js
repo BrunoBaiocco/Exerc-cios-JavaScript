@@ -10,7 +10,7 @@ function isMultipleOf5(val) {
     return (val % 5 === 0);
 }
 
-// console.log(isMultipleOf5(05))
-// console.log(isMultipleOf5(80))
-// console.log(isMultipleOf5(47))
-// console.log(isMultipleOf5(52))
+// console.log(isMultipleOf5(05));
+// console.log(isMultipleOf5(80));
+// console.log(isMultipleOf5(47));
+// console.log(isMultipleOf5(52));
