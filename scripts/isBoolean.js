@@ -4,10 +4,10 @@
 
 function isBoolean(val) {
 
-    // Retorna a verificação onde verifica se o parâmetro val
-    //  é do tipo boolean, ultizando o operador === que verifica
-    //  se o valor e o tipo são iguais,  então só vai ser true se for exatamente igual;
-    return val === true || val === false;
+    // A função está retornando com o operador type of, onde o mesmo
+    // verfica qual é o tipo do objeto que está situado, assim
+    // se o parâmetro for do tipo boolean, retornará true ;
+    return typeof val === 'boolean';
 }
 
 // console.log(isBoolean(true));
