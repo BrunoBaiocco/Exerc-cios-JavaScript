@@ -4,10 +4,10 @@
 
 function isPositiveAndNegative(val1, val2){
 
-    if (val1 * -1 ) && (val2 * 1){
+ 
 
-        return true
-    } 
+        return (val1 * -1 == true)  (val2 * 1)
+ 
     
 }
 
