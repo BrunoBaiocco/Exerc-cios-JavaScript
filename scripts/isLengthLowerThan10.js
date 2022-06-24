@@ -4,14 +4,11 @@
 function isLengthLowerThan10(val) {
 
 // Está sendo utilizada a propriedade length que mede quantidades de caracteres e te
-//  retornar um número, aí está sendo feita uma condicional if/else para testar esse valor e se ele for menor que 10 retornará true
-    if (val.length < 10) {
-        return true
-    } else {
-        return false
-    }
-};
+//  retornar um número, e ocorre o teste e se ele for menor que 10 retornará true;
+    
+        return val.length < 10;
 
+}
 
 // console.log(isLengthLowerThan10('test'));
 // console.log(isLengthLowerThan10('test-lower'));

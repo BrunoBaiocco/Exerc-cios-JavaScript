@@ -3,14 +3,10 @@
 
 function isLengthGreaterThan5(val) {
 
-// Está sendo utilizada a propriedade length que mede quantidades de caracteres e te
-//  retornar um número, aí está sendo feita uma condicional if/else para testar esse valor e se ele for maior que 5 retornará true
-    if (val.length > 5) {
-        return true
-    } else {
-        return false
-    }
-};
+    // Está sendo utilizada a propriedade length que mede quantidades de caracteres e te
+    //  retornar um número, e ocorre o teste e se ele for maior que 5 retornará true;
+    return val.length > 5;
+}
 
 // console.log(isLengthGreaterThan5('testes'))
 // console.log(isLengthGreaterThan5('teste'))

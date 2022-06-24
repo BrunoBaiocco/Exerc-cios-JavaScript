@@ -3,7 +3,7 @@
 
 
 function isPrime(val){
-
+return val > 0 || == 1
 }
 
 // Terminar de fazer

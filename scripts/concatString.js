@@ -3,10 +3,11 @@
 
 function concatString(val1, val2){
  
-    return val1.concat, val2.concat
+    return val1+ " " +val2
 
 }
-console.log(concatString('test', ))
+console.log(concatString('test', 'ok'))
+console.log(concatString('test', ' '))
 
 
 // Terminar de fazer

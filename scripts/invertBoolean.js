@@ -3,8 +3,8 @@
 
 function invertBoolean(val) {
 
-    // Está retornando uma verificação falsa, onde todos os valores serão invertidos;
-    return val == !true;
+    // Está retornando uma verificação com o operador not, que retorna valores não iguais na expressão;
+    return val != true;
 }
 
 // console.log(invertBoolean(true));
