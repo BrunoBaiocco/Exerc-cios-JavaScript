@@ -3,9 +3,9 @@
 
 function isLengthLowerThan10(val) {
 
-// Está sendo utilizada a propriedade length que mede quantidades de caracteres e te
-//  retornar um número, e ocorre o teste e se ele for menor que 10 retornará true;
-    
+        // Está sendo utilizada a propriedade length que mede quantidades de caracteres e te
+        //  retornar um número, e ocorre o teste e se ele for menor que 10 retornará true;
+
         return val.length < 10;
 
 }

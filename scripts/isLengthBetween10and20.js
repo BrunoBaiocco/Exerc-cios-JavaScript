@@ -9,6 +9,6 @@ function isLengthBetween10and20(val) {
     return (val.length > 10) && (val.length < 20);
 }
 
-// console.log(isLengthBetween10and20('testes'))
-// console.log(isLengthBetween10and20('test-lower'))
-// console.log(isLengthBetween10and20('teste-greater'))
+// console.log(isLengthBetween10and20('testes'));
+// console.log(isLengthBetween10and20('test-lower'));
+// console.log(isLengthBetween10and20('teste-greater'));

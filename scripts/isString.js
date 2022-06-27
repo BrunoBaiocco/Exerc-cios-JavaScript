@@ -11,8 +11,8 @@ function isString(val) {
 
 }
 
-// console.log(isString('teste'))
-// console.log(isString('1'))
-// console.log(isString(1))
-// console.log(isString(true))
-// console.log(isString(null))
+// console.log(isString('teste'));
+// console.log(isString('1'));
+// console.log(isString(1));
+// console.log(isString(true));
+// console.log(isString(null));

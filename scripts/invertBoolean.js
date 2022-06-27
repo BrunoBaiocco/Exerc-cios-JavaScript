@@ -4,8 +4,8 @@
 function invertBoolean(val) {
 
     // Está retornando uma verificação com o operador not, que retorna valores não iguais na expressão;
-    return val != true;
+     return val != true;
 }
 
-// console.log(invertBoolean(true));
-// console.log(invertBoolean(false));
+console.log(invertBoolean(true));
+console.log(invertBoolean(false)); 

@@ -2,7 +2,7 @@
 // val1 e val2 do tipo number e retorna um number com a exponenciação dos parâmetros;
 
 
-function powNumbers(base, exp){
+function powNumbers(base, exp) {
     return base ** exp;
     // A função está retornando um number, com a exponenciação do parâmetro 1 com o parâmetro 2;
 }

@@ -2,9 +2,9 @@
 // do tipo number e retorna um number com o dobro do valor do parâmetro;
 
 
-function doubleNumber(val){
-    
-    return val *2;
+function doubleNumber(val) {
+
+    return val * 2;
 }
 
 // console.log(doubleNumber(2));

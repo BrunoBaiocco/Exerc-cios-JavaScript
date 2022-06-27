@@ -8,6 +8,6 @@ function isLengthGreaterThan5(val) {
     return val.length > 5;
 }
 
-// console.log(isLengthGreaterThan5('testes'))
-// console.log(isLengthGreaterThan5('teste'))
-// console.log(isLengthGreaterThan5('ok'))
+// console.log(isLengthGreaterThan5('testes'));
+// console.log(isLengthGreaterThan5('teste'));
+// console.log(isLengthGreaterThan5('ok'));

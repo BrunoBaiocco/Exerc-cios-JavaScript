@@ -9,7 +9,7 @@ function booleanResponse(val) {
     // está indicando que se a função for true, irá retornar 'sim', se a função for false, irá retornará 'não';
 
     return val ? 'sim' : 'não';
-}   
+}
 
 // console.log(booleanResponse(true));
 // console.log(booleanResponse(false));

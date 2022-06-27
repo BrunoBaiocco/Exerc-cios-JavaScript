@@ -2,26 +2,23 @@
 // do tipo string e retorna um number com a contagem das vogais;
 
 
+function countVowels(val) {
 
+    // Foi utilizada uma expressão regular com o padrão [aeiou], Os colchetes são usados ​​para designar uma 
+    // “classe de caractere”, assim a expressão regular procurará qualquer caractere que corresponda a classe
+    // do caractere. Após foi utilizado g e i, g para uma pesquisa global continuar a fazer pesquisas e i para
+    // uma pesquisa onde permite que não diferencia maiúsculas de minúsculas permite que você evite também definir vogais maiúsculas.
+    // Após foi utilizado o método match, onde se houver uma correspondência, todas as instâncias com expressão regular irão retornar,
+    // se não houver, um null irá retornar, assim foi ultilizado o valor matchingInstances que avalia os valores e retorna os mesmos,
+    // assim se ele for verdadeiro retorna uma mensagem mostrando o número das vogais;
 
-// Foi criada uma constante vowels, que contém uma matriz com as vogais, após foi criada uma função
-// com o valor val, dentro desta função está uma counter variável == 0, foi utilizado um for...of loop
-// para percorrer a string, o for…of loop terá objetos iteráveis ​​
-const vowels = ["a", "e", "i", "o", "u"]
+    let matchingInstances = val.match(/[aeiou]/gi);
 
-function countVolwels(val) {
-    let counter = 0
-
-    for (let letter of val.toLowerCase()) {
-        if (vowels.includes(letter)) {
-            counter++  
-        }
-    }
-
-    return counter
+    if (matchingInstances)
+        return matchingInstances.length;
 }
 
 
-console.log(countVolwels('test'));
-console.log(countVolwels('ok'));
-console.log(countVolwels('plantae'));
+// console.log(countVowels('test'));
+// console.log(countVowels('ok'));
+// console.log(countVowels('plantae'));

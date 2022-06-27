@@ -2,7 +2,7 @@
 // val1 e val2 do tipo number e retorna um number com a soma dos parâmetros;
 
 
-function sumNumbers(val1, val2){
+function sumNumbers(val1, val2) {
     return val1 + val2;
     // A função está retornando um number, com a soma do parâmetro 1 com o parâmetro 2;
 }
