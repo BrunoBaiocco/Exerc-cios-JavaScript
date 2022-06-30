@@ -3,6 +3,9 @@
 
 function wordReverse(text){
 
+    return text.split('').reverse().join('');
 }
 
-// Não realizada
+console.log(wordReverse('Hello World'))
+
+// Terminar de realizar

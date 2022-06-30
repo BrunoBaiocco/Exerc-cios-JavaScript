@@ -3,15 +3,17 @@
 
 
 // function isPrime(val){
-function probablyPrime(val) {
-    if (val === 2 || val === 3)
-        return true;
-    if (val % 2 === 0 || val < 2)
-        return false;
+function isPrime(val) {
 
-
+    for (var i = 2; i < val; i++)
+        if (val % i === 0) return false;
+    return val !== 1;
 }
 
-console.log(probablyPrime(5))
+console.log(isPrime(0))
+console.log(isPrime(1))
+console.log(isPrime(2))
+console.log(isPrime(5))
 
-// Terminar de fazer
+
+// Terminar de realizar

@@ -14,6 +14,6 @@ function shuffleString(text) {
 
 
 console.log(shuffleString('Plantae'));
-console.log(shuffleString('ok'));
+console.log(shuffleString('ok')); 
 
-// Fazer os comentários sobre o que está acontecendo
+// Não terminada

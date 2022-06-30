@@ -3,8 +3,12 @@
 
 function concatString(val1, val2) {
 
-    return val1 + " " + val2
+
+    return `'${val1} ${val2}'`
 
 }
+
 console.log(concatString('test', 'ok'))
 console.log(concatString('test', ' '))
+
+// terminar de realizar
