@@ -13,7 +13,7 @@ function isPositiveAndNegative(val1, val2) {
 }
 
 
-// console.log(isPositiveAndNegative(-1, 2))
-// console.log(isPositiveAndNegative(7, -5))
-// console.log(isPositiveAndNegative(2, 5))
-// console.log(isPositiveAndNegative(-5, -5))
+// console.log(isPositiveAndNegative(-1, 2));
+// console.log(isPositiveAndNegative(7, -5));
+// console.log(isPositiveAndNegative(2, 5));
+// console.log(isPositiveAndNegative(-5, -5));

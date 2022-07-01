@@ -6,6 +6,6 @@ function wordReverse(text){
     return text.split('').reverse().join('');
 }
 
-console.log(wordReverse('Hello World'))
+console.log(wordReverse('Hello World'));
 
 // Terminar de realizar

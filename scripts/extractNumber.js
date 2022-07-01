@@ -3,12 +3,12 @@
 
 function extractNumber(val) {
 
-    return val.replace(/^(-)|[^0-9.]+/g, '$1') || 'NaN'
+    return val.replace(/^(-)|[^0-9.]+/g, '$1') || 'NaN';
 }
 
-console.log(extractNumber('oo'));
-console.log(extractNumber('57o'));
-console.log(extractNumber('n1.5'));
-console.log(extractNumber('n1,5'));
+// console.log(extractNumber('oo'));
+// console.log(extractNumber('57o'));
+// console.log(extractNumber('n1.5'));
+// console.log(extractNumber('n1,5'));
 
 // Fazer os comentários

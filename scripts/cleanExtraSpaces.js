@@ -4,7 +4,7 @@
 function cleanExtraSpaces(val) {
 
     // Foi retornada a função  com método trim que remove os espaços denecessários
-    // declarados no início ou no final de uma string.
+    // declarados no início ou no final de uma string;
     return val.trim();
 }
 

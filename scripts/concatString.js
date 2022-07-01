@@ -3,12 +3,13 @@
 
 function concatString(val1, val2) {
 
+    // Está retornando os dois parâmetros com a formatação de string que é feita pelo uso de acentos
+    // graves e os parâmetros são inserido dentro dos acentos graves entre chaves, procedidas por um
+    // cifrão, ​​são chamadas de espaços reservados dentro da string que são substituídas pelos valores das variáveis;
 
-    return `'${val1} ${val2}'`
+    return `'${val1} ${val2}'`;
 
 }
 
-console.log(concatString('test', 'ok'))
-console.log(concatString('test', ' '))
-
-// terminar de realizar
+// console.log(concatString('test', 'ok'));
+// console.log(concatString('test', ' '));

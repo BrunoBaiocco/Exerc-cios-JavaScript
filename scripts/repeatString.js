@@ -3,10 +3,9 @@
 
 
 function repeatString(text){
-
-
-    return text.repeat();
+    
+     
+    return text.repeat(text);
 }
 
-console.log(repeatString('ok', 4))
-// Não realizada
+console.log(repeatString('ok', 4));
